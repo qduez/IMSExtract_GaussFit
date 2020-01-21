@@ -6,7 +6,7 @@ Feel free to contact us : sebastien.hoyas@umons.ac.be / quentin.duez@umons.ac.be
 
 These scripts are licensed under GNU General Public License v3.0, see License file.
 
-When using these scripts for your research, please cite: https://doi.org/10.1021/acs.analchem.7b00112} (TWIMExtract), https://doi.org/10.1007/s13361-017-1762-4} (PEG, PLA calibration), https://doi.org/10.1021/ac3014498} (PolyALA calibration)
+When using these scripts for your research, please cite: https://doi.org/10.1021/acs.analchem.7b00112 (TWIMExtract), https://doi.org/10.1007/s13361-017-1762-4 (PEG, PLA calibration), https://doi.org/10.1021/ac3014498 (PolyALA calibration)
 
 1. Preamble
 
