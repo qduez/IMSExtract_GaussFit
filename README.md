@@ -34,7 +34,7 @@ pip install lmfit
 pip install pandas
 pip install matplotlib
 
--TWIMExtract (https://sites.lsa.umich.edu/ruotolo/software/twim-extract/)
+- TWIMExtract (https://sites.lsa.umich.edu/ruotolo/software/twim-extract/)
 
 !!! Include TWIMExtract installation path in the beginning of the IMSExtract script !!!
 Note that Java is required for TWIMExtract to work.
@@ -42,21 +42,21 @@ Note that Java is required for TWIMExtract to work.
 
 3. Usage
 
-a. Record your calibration spectra with a Waters instrument and specify the name of the polymer (PEG, PLA or POLYALA) with the approximate Mn in the spectrum header.
+- Record your calibration spectra with a Waters instrument and specify the name of the polymer (PEG, PLA or POLYALA) with the approximate Mn in the spectrum header.
 !!! This is mandatory as the script applies different conditions depending on the polymer type and size !!!
 
-b. Create a new folder for the execution of the scripts.
+- Create a new folder for the execution of the scripts.
 !!! Don't execute the script twice in the same folder without deleting the previously generated data !!!
 
-c. Copy-paste the scripts (IMSExtract and GaussFit) and the .raw files containing your calibration spectra regardless of the polymer.
+- Copy-paste the scripts (IMSExtract and GaussFit) and the .raw files containing your calibration spectra regardless of the polymer.
 
-d. Open a Windows command line (Shift + right click and select 'Open a command prompt here').
+- Open a Windows command line (Shift + right click and select 'Open a command prompt here').
 
-e. $python IMS_Extract_2.0_PEG_PLA_POLYALA.py
+- $python IMS_Extract_2.0_PEG_PLA_POLYALA.py
 
-f. The script will detect which polymer it analyzes based on what's written in the header file.
+- The script will detect which polymer it analyzes based on what's written in the header file.
 
-g. For each spectrum, the extracted arrival times are listed in the corresponding polymer folder and in the Output.log file. 
+- For each spectrum, the extracted arrival times are listed in the corresponding polymer folder and in the Output.log file. 
 Only the reasonable fittings ($R^2 > 0.95$) are printed, the other ones are discarded and will have to be extracted by hand.
 
 
